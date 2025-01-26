@@ -1,1 +1,26 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: 'Suse';
+    font-style: normal;
+    font-weight: 500;
+    src: url('fonts/SUSE-VariableFont_wght.ttf');
+}
+
+html {
+    font-family: 'Suse';
+}
+
+header {
+    @apply text-center;
+    @apply py-16;
+}
+
+header > h1 {
+    @apply text-6xl;
+}
+
+header > p {
+    @apply text-3xl;
+    @apply text-gray-600;
+}
