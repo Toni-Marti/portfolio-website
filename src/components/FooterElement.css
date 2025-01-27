@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.FooterElement > :first-child{
+    @apply underline;
+}
+
+.FooterElement > * {
+    @apply block;
+}
+
+.FooterElement > a:hover {
+    @apply underline;
+}
