@@ -5,6 +5,7 @@ html {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+  background-color: #000428;
 }
 
 body {
@@ -21,5 +22,5 @@ h2 {
 }
 
 h3 {
-  @apply text-3xl font-bold;
+  @apply font-bold;
 }
