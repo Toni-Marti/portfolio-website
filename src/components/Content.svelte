@@ -81,6 +81,9 @@
     }
     return results;
   }
+  console.log(
+    "If you are wondering how this is made. My stack is Svelte, TailwindCSS and Typescript, hosted in Vercel :)",
+  );
 </script>
 
 <!--
@@ -91,7 +94,6 @@ Parameters:
   line: string - Index of the line to be shown.
 -->
 {#snippet type_line(li: number, speed: number)}
-  {console.log(speed)}
   {@const text = currentDescription()[li]}
   {@const links = getLinks(text)}
 
