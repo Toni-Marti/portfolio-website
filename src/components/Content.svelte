@@ -202,12 +202,12 @@ Parameters:
         class="fixed h-screen w-screen inset-0 z-20 content-center text-center"
       >
         <div
-          class="relative inline-block m-[2rem] max-w-[calc(min(100%-2rem,60rem))] max-h-[calc(100vh-4rem)]"
+          class="relative inline-block m-[2rem] max-w-[calc(min(100%-2rem,60rem))] max-h-[calc(100vh-12rem) md:max-h-[calc(100vh-4rem)]"
         >
           <div
             class="border-3 border-white px-10 py-6 md:py-8 md:px-14 bg-gradient-to-br from-slate-950
             to-slate-900 rounded-2xl text-white text-justify
-             overflow-y-auto text-clip max-h-[calc(100vh-4rem)] text-lg md:text-2xl"
+             overflow-y-auto text-clip max-h-[calc(100vh-12rem)] md:max-h-[calc(100vh-4rem) text-lg md:text-2xl"
             onclick={(e) => e.stopPropagation()}
             in:receive={{ key: viewing_index }}
             out:send={{ key: viewing_index }}
