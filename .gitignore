@@ -3,9 +3,15 @@ node_modules
 /build
 /.svelte-kit
 /package
+/.vscode
 .env
 .env.*
 !.env.example
 .vercel
 .output
 package-lock.json
+static/videos/IG_P3.mp4
+static/videos/IG_P4.mp4
+static/videos/IGP2.mp4
+static/videos/UTTT.mp4
+.prettierrc

@@ -1,12 +1,11 @@
 interface Image {
-    src: string
-    alt: string
+  src: string;
+  alt: string;
 }
 
 export interface ProjectInfo {
-    unique_id: number;
-    title: string;
-    description: string;
-    img?: Image;
-    vid_src?: string;
+  title: string;
+  description: Array<string>;
+  img?: Image;
+  vid_src?: string;
 }
