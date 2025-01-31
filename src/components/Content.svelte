@@ -222,7 +222,7 @@ Parameters:
             <h3
               in:receive={{ key: "T" + viewing_index }}
               out:send={{ key: "T" + viewing_index }}
-              class="text-center pb-2 md:pb-4 text-2xl md:text-3xl"
+              class="text-center pb-2 md:pb-4"
             >
               {currentInfo().title}
             </h3>
@@ -342,7 +342,7 @@ Parameters:
 
     <div class="columns-1 md:columns-2 text-left pt-1 px-8">
       <div class={technologies_section}>
-        <h3 class="text-3xl">Programming Languages</h3>
+        <h3>Programming Languages</h3>
         <ul class={list_style}>
           <li>Python</li>
           <li>C & C++</li>
@@ -357,7 +357,7 @@ Parameters:
       </div>
 
       <div class={technologies_section}>
-        <h3 class="text-3xl">Information Retrieval</h3>
+        <h3>Information Retrieval</h3>
         <ul class={list_style}>
           <li>Oracle DB</li>
           <li>MongoDB</li>
@@ -366,7 +366,7 @@ Parameters:
       </div>
 
       <div class={technologies_section}>
-        <h3 class="text-3xl">Web Development</h3>
+        <h3>Web Development</h3>
         <ul class={list_style}>
           <li>React</li>
           <li>Svelte</li>
@@ -375,7 +375,7 @@ Parameters:
       </div>
 
       <div class={technologies_section}>
-        <h3 class="text-3xl">Organization</h3>
+        <h3>Organization</h3>
         <ul class={list_style}>
           <li>Git & GitHub</li>
           <li>Jira</li>
@@ -383,7 +383,7 @@ Parameters:
       </div>
 
       <div class={technologies_section}>
-        <h3 class="text-3xl">Game Engines</h3>
+        <h3>Game Engines</h3>
         <ul class={list_style}>
           <li>Godot</li>
           <li>Unity</li>
@@ -391,7 +391,7 @@ Parameters:
       </div>
 
       <div class={technologies_section}>
-        <h3 class="text-3xl">Others</h3>
+        <h3>Others</h3>
         <ul class={list_style}>
           <li>Docker & Docker Desktop</li>
         </ul>
