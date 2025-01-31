@@ -29,7 +29,7 @@ export const cards_content: Array<ProjectInfo> = [
   {
     title: "3D Models",
     description: [
-      "Worked with OpenGL. I really liked my Computer Graphics class, below are some examples of my assignments. The first one showcases extrusion of a shape through a 3D path. The second one recursive scene trees. The last one texture mapping.",
+      "Worked with OpenGL. I really liked my Computer Graphics class, below are some examples of my assignments. The first one showcases recursive scene trees. The second one extrusion of a shape through a 3D path. The last one texture mapping.",
     ],
     vid_srcs: ["/videos/IG_P3.mp4", "/videos/IG_P2.mp4", "/videos/IG_P4.mp4"],
   },
