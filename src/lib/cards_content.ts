@@ -27,7 +27,7 @@ export const cards_content: Array<ProjectInfo> = [
     vid_srcs: ["/videos/Games.mp4"],
   },
   {
-    title: "3D Models",
+    title: "3D Graphics",
     description: [
       "Worked with OpenGL. I really liked my Computer Graphics class, below are some examples of my assignments. The first one showcases extrusion of a shape through a 3D path. The second one recursive scene trees. The last one texture mapping.",
     ],
