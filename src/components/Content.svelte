@@ -203,7 +203,7 @@ Parameters:
         >
           <div
             class="border-3 border-white px-10 py-6 md:py-8 md:px-14 bg-gradient-to-br from-slate-950
-            to-slate-900 rounded-2xl text-white text-justify
+            to-slate-900 rounded-2xl text-white text-left md:text-justify
              overflow-y-auto text-clip max-h-[calc(100vh-14rem)] md:max-h-[calc(100vh-4rem)] text-lg md:text-2xl"
             onclick={(e) => e.stopPropagation()}
             in:receive={{ key: viewing_index }}
@@ -219,7 +219,7 @@ Parameters:
             <h3
               in:receive={{ key: "T" + viewing_index }}
               out:send={{ key: "T" + viewing_index }}
-              class="text-center pb-2 md:pb-4"
+              class="text-center pb-2 md:pb-4 text-xl md:text-3xl"
             >
               {currentInfo().title}
             </h3>
