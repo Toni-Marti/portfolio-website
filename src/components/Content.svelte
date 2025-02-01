@@ -212,7 +212,7 @@ Parameters:
             <button
               onclick={() => setViewingIndex(null)}
               class="cursor-pointer absolute top-3 right-3 rounded-[50%] md:top-5
-              md:right-5 hover:rotate-180 duration-300 transition ease-[cubic-bezier(1,1.93,.75,.57)]"
+              md:right-5 hover:rotate-90 active:rotate-180 duration-150 transition ease-[cubic-bezier(1,1.93,.75,.57)]"
             >
               <img src="/svgs/icons/cross.svg" alt="Cross" class="p-1 h-8" />
             </button>
@@ -398,64 +398,66 @@ Parameters:
 </article>
 
 <footer
-  class="m-auto px-6 max-w-4xl flex flex-wrap flex-auto min-w-full text-lg
-  bg-slate-950 text-white text-center py-4"
+  class="px-6 max-w-4xl min-w-full text-lg
+  bg-slate-950 text-white text-center h-auto py-8 flex-auto"
 >
-  <div class="px-4 py-4 m-auto">
-    <strong class="underline block">Links of interest</strong>
-    <a
-      href="https://nextcloud.tonimartal.com/index.php/s/wcCzsLwdKkbZtnK/download/CV-ToniMartiAlbons.pdf"
-      class="hover:underline block"
-      download
-    >
-      <img
-        src="/svgs/icons/document.svg"
-        alt="Document Icon"
-        class="h-4 inline relative bottom-0.5"
-      /> Download my CV
-    </a>
-    <a
-      href="https://github.com/Toni-Marti/portfolio-website"
-      class="hover:underline block"
-      target="_blank"
-    >
-      <img
-        src="/svgs/icons/github.svg"
-        alt="Github's Icon"
-        class="h-4 inline relative bottom-0.5"
-      /> This website's source code
-    </a>
-  </div>
-  <div class="px-4 py-4 m-auto">
-    <strong class="underline block">Contact me</strong>
-    <a href="mailto:toni.m.a.2003@gmail.com" class="hover:underline block">
-      <img
-        src="/svgs/icons/email.svg"
-        class="h-4 inline relative bottom-[1px]"
-        alt="Email's Icon"
-      />
-      toni.m.a.2003@gmail.com
-    </a>
-    <a
-      href="https://wa.me/34620357071"
-      class="hover:underline block"
-      target="_blank"
-      ><img
-        src="/svgs/icons/whatsapp.svg"
-        alt="WhatsApp' Icon"
-        class="h-4 inline relative bottom-0.5"
-      /> WhatsApp</a
-    >
-    <a
-      href="https://t.me/toni_marti_albons"
-      class="hover:underline block"
-      target="_blank"
-      ><img
-        src="/svgs/icons/telegram.svg"
-        alt="Telegram's Icon"
-        class="h-4 inline relative bottom-0.5"
-      /> Telegram</a
-    >
+  <div class="mb-auto flex flex-wrap flex-auto">
+    <div class="px-4 py-2.5 m-auto">
+      <strong class="underline block">Links of interest</strong>
+      <a
+        href="https://nextcloud.tonimartal.com/index.php/s/wcCzsLwdKkbZtnK/download/CV-ToniMartiAlbons.pdf"
+        class="hover:underline block"
+        download
+      >
+        <img
+          src="/svgs/icons/document.svg"
+          alt="Document Icon"
+          class="h-4 inline relative bottom-0.5"
+        /> Download my CV
+      </a>
+      <a
+        href="https://github.com/Toni-Marti/portfolio-website"
+        class="hover:underline block"
+        target="_blank"
+      >
+        <img
+          src="/svgs/icons/github.svg"
+          alt="Github's Icon"
+          class="h-4 inline relative bottom-0.5"
+        /> This website's source code
+      </a>
+    </div>
+    <div class="px-4 py-2.5 m-auto">
+      <strong class="underline block">Contact me</strong>
+      <a href="mailto:toni.m.a.2003@gmail.com" class="hover:underline block">
+        <img
+          src="/svgs/icons/email.svg"
+          class="h-4 inline relative bottom-[1px]"
+          alt="Email's Icon"
+        />
+        toni.m.a.2003@gmail.com
+      </a>
+      <a
+        href="https://wa.me/34620357071"
+        class="hover:underline block"
+        target="_blank"
+        ><img
+          src="/svgs/icons/whatsapp.svg"
+          alt="WhatsApp' Icon"
+          class="h-4 inline relative bottom-0.5"
+        /> WhatsApp</a
+      >
+      <a
+        href="https://t.me/toni_marti_albons"
+        class="hover:underline block"
+        target="_blank"
+        ><img
+          src="/svgs/icons/telegram.svg"
+          alt="Telegram's Icon"
+          class="h-4 inline relative bottom-0.5"
+        /> Telegram</a
+      >
+    </div>
   </div>
 </footer>
 <div class="grid-cols-1"></div>
