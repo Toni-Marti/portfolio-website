@@ -212,7 +212,7 @@ Parameters:
             <button
               onclick={() => setViewingIndex(null)}
               class="cursor-pointer absolute top-3 right-3 rounded-[50%] md:top-5
-              md:right-5 hover:rotate-90 active:rotate-180 duration-150 transition ease-[cubic-bezier(1,1.93,.75,.57)]"
+              md:right-5 hover:rotate-180 active:rotate-360 duration-300 transition ease-[cubic-bezier(1,1.93,.75,.57)]"
             >
               <img src="/svgs/icons/cross.svg" alt="Cross" class="p-1 h-8" />
             </button>
