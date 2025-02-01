@@ -81,9 +81,6 @@
     }
     return results;
   }
-  console.log(
-    "If you are wondering how this is made. My stack is Svelte, TailwindCSS and Typescript, hosted in Vercel :)",
-  );
 </script>
 
 <!--
