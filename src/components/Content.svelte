@@ -395,6 +395,8 @@ Parameters:
       </div>
     </div>
   </section>
+  
+  <p class="-mb-8 -mr-10 text-right pt-8">Last content update: 31/jan/2025</p>
 </article>
 
 <footer
