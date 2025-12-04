@@ -168,7 +168,7 @@ Parameters:
 
   <p>
     Hi! This is a little website I made to show some of the things I've worked
-    on at university or during my spare time.
+    on at university and during my spare time.
   </p>
 
   <section class="pt-4">
